@@ -1,0 +1,20 @@
+:root{
+  --firstColor:red;
+  --secondColor:blue;
+  --fontU:10px;
+  --basicHeight:100vh;
+  --basicWidth:100vh;
+}
+
+div{
+  height: var(--basicHeight);
+  width: var(--basicWidth);
+  background-color: var(--firstColor);
+  box-shadow: -2px -3px 2px black;
+  transition: all 10s linear;
+  transition-duration: infinite;
+}
+
+h1{
+  color:var(--secondColor)
+}
